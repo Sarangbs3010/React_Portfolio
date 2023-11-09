@@ -1,0 +1,44 @@
+.table{
+    .tableCell{
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(180, 171, 171);
+    }
+
+    .tableBody{
+        font-size: 15px;
+    }
+
+   .cell{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        img{
+            width: 32px;
+            height: 32px;
+            margin-right: 7px;
+            object-fit: cover;
+        }
+   }
+   .status{
+    padding: 5px;
+    border-radius: 5px;
+
+    &.Approved{
+        color: green;
+        background-color: rgb(184, 215, 184);
+    }
+
+    &.Pending{
+        color: goldenrod;
+        background-color: rgb(218, 210, 189);
+    }
+
+    &.Cancelled{
+        color: red;
+        background-color: rgb(221, 186, 186);
+    }
+
+   }
+}
